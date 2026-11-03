@@ -1,84 +1,141 @@
-# Ultra PNG Studio v2.2
+# 🎨 Ultra PNG Studio v2.2
 
-**한국어** · [English](#english) · [사용 설명서](docs/manual.md) · [English manual](docs/manual_en.md)
+**AI Background Remover · Transparent PNG Editor · Text PNG Maker**
 
-![Ultra PNG Studio v2.2 — background removal, transparent editing, text PNG and KO/EN interface](screenshots/00_overview.png)
+**한국어 / English** · **브라우저에서 실행하는 단일 HTML 앱 / One HTML file, no installation**
 
-브라우저에서 바로 실행하는 **설치 없는 단일 HTML 이미지 편집 도구**입니다. 사진·로고의 배경을 지우고, 투명 PNG를 보정하고, 원하는 문구를 투명 PNG로 만들 수 있습니다. **한국어 / English UI를 모두 지원**합니다.
+[📦 **v2.2 다운로드 / Download**](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/latest) · [🇰🇷 한국어 매뉴얼](docs/manual.md) · [🇺🇸 English Manual](docs/manual_en.md) · [📝 v2.2 변경 사항](docs/RELEASE_NOTES_v2.2.md)
 
-## 세 가지 작업 / Three ways to create
+![Ultra PNG Studio v2.2 — three editing modes and bilingual interface](screenshots/00_overview.png)
 
-| 🧹 배경 제거 · Background Removal | 🪟 투명 이미지 편집 · Transparent Editing | 🔤 텍스트 PNG · Text to PNG |
-|---|---|---|
-| ![Background removal](screenshots/02_background_removal_en.png) | ![Transparent image editing](screenshots/03_transparent_edit_en.png) | ![Transparent text PNG](screenshots/04_text_png_en.png) |
-| AI 자동 제거 또는 단색 배경 수동 제거 (스마트 / 지정 색상 / 가장자리 연결) | 외곽선, 글로우, 그림자, 색상, 회전·반전, 자동 자르기 | 텍스트 입력, 시스템/사용자 글꼴, 실시간 미리보기, PNG 생성 |
-
-## 주요 기능
-
-| 기능 | 설명 |
-|---|---|
-| **KO / EN 전환** | Ultra Exif Reader와 통일된 상단 `KO` / `EN` 스위치. 브라우저 언어 자동 감지 및 수동 선택 기억. 메뉴·설정·도움말·오류 알림까지 전환 |
-| **AI 배경 제거** | 사람·제품·사물 사진의 배경을 브라우저에서 자동 제거. AI 경계 페더링 및 단색 배경 채우기 |
-| **수동 배경 제거** | 단색 배경 로고·스캔 이미지에 적합. 스마트 / 지정 색상 / 가장자리 연결 + 제거 프리셋 |
-| **투명 이미지 편집** | 외곽선, 글로우, 그림자, 밝기·대비·채도, 회전·반전, 자동 자르기, 정사각형 배치 |
-| **텍스트 PNG** | 시스템 글꼴 및 사용자 글꼴(TTF / OTF / WOFF / WOFF2), 굵기·기울기, 실시간 편집 |
-| **저장과 복구** | 투명 PNG / 배경 포함 미리보기 PNG / 흰 배경 JPG / 실행취소 / 다시실행 / 처음 상태 복구 |
-| **SVG 지원** | viewBox-only SVG의 고해상도 렌더링, 한쪽 길이만 있는 SVG 및 네임스페이스 SVG 지원 |
-
-### 한글·영문 화면 비교 / Interface language switch
-
-| KO | EN |
-|---|---|
-| ![한국어 화면](screenshots/01_landing_ko.png) | ![English screen](screenshots/01_landing_en.png) |
-
-상단의 **KO / EN** 버튼을 누르면 진행 중인 작업을 닫지 않고 화면 언어만 바뀝니다. 한국어 브라우저는 기본 한국어, 그 외 언어 브라우저는 기본 영어이며, 수동 선택을 우선합니다. 저장된 언어 선호도는 브라우저 저장소 정책에 따라 유지됩니다. **사용자가 입력한 문구, 파일 이름, 글꼴 내부 값, 이미지 데이터는 번역·수정하지 않습니다.**
-
-## 다운로드와 실행
-
-1. [Releases](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases)에서 배포 ZIP을 내려받거나 `Code → Download ZIP`을 선택합니다. **저장소가 아직 공개되지 않았다면 이 링크는 열리지 않습니다.**
-2. 압축을 풀고 `index.html`을 Chrome 또는 Edge에서 엽니다. 별도 프로그램 설치는 필요하지 않습니다.
-3. 작업 유형을 선택하고 파일을 불러오거나 텍스트를 입력합니다. 편집 후 상단/오른쪽의 저장 버튼으로 내보냅니다.
-
-GitHub Pages를 활성화하면 HTTPS 웹 페이지로도 이용할 수 있습니다. GitHub Pages 주소는 게시 후 제공되며, 현재 문서에는 아직 게시된 주소를 기재하지 않았습니다.
-
-## 글꼴 및 저작권
-
-**글꼴 파일은 저장소와 배포 ZIP에 포함하지 않습니다.** Windows에서 사용 가능한 시스템 글꼴을 선택하거나, 사용자가 합법적으로 다운로드한 TTF/OTF/WOFF/WOFF2 파일을 **커스텀 폰트 불러오기**로 직접 선택할 수 있습니다. 실제 글꼴 파일은 선택된 경우에만 로드하고 서버로 업로드하지 않습니다. 글꼴을 사용할 때는 각 글꼴의 사용 허가를 확인하세요.
-
-추천 공식 경로: [Pretendard](https://github.com/orioncactus/pretendard) · [네이버 나눔글꼴](https://hangeul.naver.com/font) · [Google Fonts](https://fonts.google.com/).
-
-## 개인정보·네트워크·AI 주의 사항
-
-이미지 편집 및 저장은 브라우저 내에서 처리됩니다. 이 앱에는 **이미지 업로드 서버가 없습니다.** 단, AI 자동 배경 제거를 처음 사용할 때는 IMG.LY 라이브러리, WASM 및 모델 파일을 `cdn.jsdelivr.net`과 `staticimgly.com` 등 외부 CDN에서 내려받으므로 인터넷 연결이 필요합니다. 브라우저 캐시와 보안 정책에 따라 다음 실행 여부 및 속도는 달라집니다.
-
-**검증 범위:** Chromium 자동화에서 이미지 처리와 언어 전환을 시험했습니다. Windows에서의 직접 HTML 실행, 실제 CDN/WASM/AI 모델 다운로드·실추론, GitHub Pages HTTPS 동작은 아직 사용자 PC 확인이 필요합니다. [배포 전 실제 테스트 체크리스트](docs/TEST_BEFORE_GITHUB_RELEASE.md)를 확인하세요.
-
-## 문서
-
-- [한국어 상세 사용 설명서](docs/manual.md) / [Complete English manual](docs/manual_en.md)
-- [v2.2 릴리즈 노트 / Release notes](docs/RELEASE_NOTES_v2.2.md)
-- [배포 전 PC 테스트 체크리스트](docs/TEST_BEFORE_GITHUB_RELEASE.md)
-- [자동화 검증 결과 및 미검증 항목](docs/TEST_REPORT.md)
-- [외부 구성 요소 고지](THIRD_PARTY_NOTICES.md) / [AGPL-3.0 LICENSE](LICENSE)
+> **사진 배경 제거부터 투명 PNG 편집, 글자 PNG 제작까지 한곳에서.** 설치 프로그램이나 별도의 이미지 업로드 서버 없이 Chrome·Edge에서 실행할 수 있는 이미지 편집 도구입니다.
+>
+> **Remove backgrounds, polish transparent graphics and create text PNGs in one place.** Runs in Chrome or Edge without an installer or a separate image-upload server.
 
 ---
 
-<a id="english"></a>
+## 🖼️ 세 가지 작업 / Three editing modes
 
-## English
+| ✨ 배경 제거 / Background Remover | 🪄 투명 이미지 편집 / Transparent PNG Editor | 🔤 텍스트 PNG / Text PNG Maker |
+| :---: | :---: | :---: |
+| ![Background remover in Korean](screenshots/02_background_removal_ko.png) | ![Transparent image editor in Korean](screenshots/03_transparent_edit_ko.png) | ![Text PNG maker in Korean](screenshots/04_text_png_ko.png) |
+| AI 자동 제거 · 수동 배경색 제거 | 외곽선 · 그림자 · 이미지 효과 | 사용자 글꼴 · 실시간 텍스트 미리보기 |
+| AI and manual background removal | Outlines, shadows and image effects | Custom fonts and live text preview |
 
-**Ultra PNG Studio v2.2** is a **single-file, browser-based image editor** for background removal, transparent-image effects and text-to-PNG creation. No installation, account or image-upload service is required.
+### ① ✨ 배경 제거 / AI & Manual Background Removal
 
-Its **KO / EN interface** matches the segmented language switch in Ultra Exif Reader. The app automatically chooses Korean for Korean browser locales or English otherwise; you can switch at any time without losing your image or text. Your manual choice is remembered where browser storage is available.
+| 한국어 화면 | English UI |
+| :---: | :---: |
+| ![배경 제거 한국어 UI](screenshots/02_background_removal_ko.png) | ![Background removal English UI](screenshots/02_background_removal_en.png) |
 
-The three screenshots at the top demonstrate the main modes: **AI/manual background removal**, **transparent-image editing**, and **live text PNG creation**. Features include Smart/Color/Edge-Connected manual removal, outlines and shadows, color adjustments, rotation/flip, tile preview, auto-crop, square output, PNG/JPG exports and Undo/Redo/Restore.
+- **AI 자동 제거:** 인물·제품·사물 사진 등의 배경을 AI 모델로 분리하고 투명 PNG로 저장합니다. *첫 사용 시 모델과 실행 파일 다운로드에 인터넷 연결이 필요합니다.*
+- **수동 제거 3방식:** 스마트, 지정 색상, 가장자리 연결 방식으로 단색 배경이나 로고·도안의 배경을 제거합니다.
+- **결과 다듬기:** 투명도, 경계 페더링, 단색 배경, 출력 영역 및 저장 옵션을 조절합니다.
 
-**Fonts:** No TTF/OTF/WOFF/WOFF2 files are bundled. Use local system fonts or import your own legitimately obtained font files. Imported font data is read locally and is not uploaded or persisted by this application.
+**EN:** Automatically remove backgrounds with AI (requires a first-time online model download), or use Smart / Selected Color / Edge-Connected manual removal for simple backgrounds and graphics. Refine the result before exporting.
 
-**How to run:** Extract the ZIP and open `index.html` in a current version of Chrome or Edge. GitHub Pages can also host the site over HTTPS once the repository has been published. AI background removal downloads code/model assets from external CDNs on first use, so it requires internet access; editing and export remain local in your browser.
+### ② 🪄 투명 이미지 편집 / Transparent PNG Editing
 
-**Testing caveat:** Automated Chromium checks cover the modes, exports, i18n and mocked AI. Real AI inference, Windows local-file execution and GitHub Pages deployment still require real-world testing before a public release.
+| 한국어 화면 | English UI |
+| :---: | :---: |
+| ![투명 이미지 편집 한국어 UI](screenshots/03_transparent_edit_ko.png) | ![Transparent PNG editing English UI](screenshots/03_transparent_edit_en.png) |
 
-See the [English manual](docs/manual_en.md), [v2.2 release notes](docs/RELEASE_NOTES_v2.2.md), [pre-release test checklist](docs/TEST_BEFORE_GITHUB_RELEASE.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
+- **이미지 효과:** 외곽선, 글로우, 그림자, 밝기·대비·채도 등 세부 설정
+- **배치와 크기:** 회전·반전, 자동 자르기, 정사각형 출력, 타일 미리보기
+- **안전한 편집:** 실행취소·다시실행·처음 상태 복구와 PNG/JPG 출력
 
-**License:** [GNU AGPL-3.0](LICENSE). The AI background-removal integration uses [IMG.LY Background Removal](https://github.com/imgly/background-removal-js), also licensed under AGPL-3.0. See dependency and Microsoft ONNX Runtime Web licensing details in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+**EN:** Add outlines, glow and shadows; adjust brightness, contrast and saturation; flip or rotate images; use auto-crop, square layout and tiled preview. Undo, redo and restore are available.
+
+### ③ 🔤 텍스트 PNG 제작 / Text PNG Maker
+
+| 한국어 화면 | English UI |
+| :---: | :---: |
+| ![텍스트 PNG 제작 한국어 UI](screenshots/04_text_png_ko.png) | ![Text PNG maker English UI](screenshots/04_text_png_en.png) |
+
+- **투명 배경 문자 이미지:** 문구를 입력하고 크기·색상·글꼴·굵기·기울기를 조절합니다.
+- **실시간 미리보기:** 설정을 바꾸면서 결과를 확인하고 PNG로 저장합니다.
+- **사용자 글꼴:** Windows 시스템 글꼴 또는 직접 선택한 TTF · OTF · WOFF · WOFF2 파일 사용
+
+**EN:** Create transparent text graphics, adjust text appearance with a live preview, and import your own font files. No fonts are redistributed in this repository.
+
+---
+
+## 🌐 KO / EN — 화면 언어 전환 / Language Switch
+
+| 🇰🇷 Korean | 🇺🇸 English |
+| :---: | :---: |
+| ![Ultra PNG Studio Korean landing page](screenshots/01_landing_ko.png) | ![Ultra PNG Studio English landing page](screenshots/01_landing_en.png) |
+
+- 상단 **KO / EN** 버튼은 [Ultra Exif Reader](https://github.com/Yamoon-jjang/Ultra-Exif-Reader)와 동일한 캡슐형 디자인입니다.
+- 브라우저 언어를 바탕으로 기본 언어를 고르고, 사용자가 직접 변경하면 브라우저 저장소가 허용할 때 선택을 기억합니다.
+- 작업 중 언어만 전환하며 **사용자 입력 텍스트, 파일 이름, 글꼴 선택값, 이미지 데이터, 실행취소 기록은 변경하지 않습니다.**
+
+**EN:** The segmented KO/EN switch matches Ultra Exif Reader. Browser language determines the initial UI; a manual selection can be remembered. Switching UI language preserves your text, filename, font settings, image and edit history.
+
+## 🚀 다운로드와 실행 / Download & Run
+
+**한국어**
+
+1. [**Releases에서 v2.2 ZIP 다운로드**](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/latest) 후 압축을 풉니다.
+2. 압축을 푼 `Ultra-PNG-Studio/index.html`을 **Chrome 또는 Edge**로 엽니다.
+3. 배경 제거, 투명 이미지 편집, 텍스트 PNG 중 하나를 선택합니다.
+4. 이미지 또는 문구를 불러와 편집한 다음 PNG/JPG로 저장합니다.
+
+**English**
+
+1. [**Download the latest release ZIP**](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/latest) and extract it.
+2. Open `Ultra-PNG-Studio/index.html` in **Chrome or Edge**.
+3. Choose Background Remover, Transparent PNG Editor or Text PNG Maker.
+4. Load an image or enter text, edit, then export PNG/JPG as supported by the mode.
+
+No installer, login or local server is required. GitHub Pages hosting is possible after Pages is enabled; this README does not claim a live Pages URL.
+
+### 📋 지원 기능 한눈에 보기 / Feature checklist
+
+| 기능 / Feature | 설명 / Description |
+|---|---|
+| AI / 수동 배경 제거 | AI removal; Smart, Selected Color and Edge-Connected manual modes |
+| 투명 이미지 효과 | Outlines, glow, shadows, color adjustments, flip and rotation |
+| SVG 불러오기 | High-resolution viewBox SVG; single-dimension and namespace-prefixed SVG handling |
+| 저장 이름 | Source-based names, including Unicode / Korean / emoji filenames |
+| 편집 복구 | Undo, Redo and Restore to Initial State |
+| 출력 | Transparent PNG, solid-background output and JPG options |
+| 사용자 글꼴 | Local system fonts; user-selected TTF, OTF, WOFF and WOFF2 |
+| UI 언어 | Automatic KO/EN selection, manual switch, remembered preference when available |
+
+## 🔠 글꼴 사용과 저작권 / Fonts & Redistribution
+
+**글꼴 바이너리는 GitHub 저장소나 Release ZIP에 포함되어 있지 않습니다.** 저작권 및 재배포 조건을 존중하기 위한 구성입니다. 글꼴 선택 기능은 그대로 사용할 수 있습니다.
+
+- Windows에 설치된 글꼴을 선택하거나 **커스텀 폰트 불러오기**에서 직접 보유한 글꼴 파일을 선택하세요.
+- 개별 글꼴의 사용·상업적 사용·재배포 허용 범위는 해당 제공처의 라이선스를 확인하세요.
+- 참고 경로: [Pretendard](https://github.com/orioncactus/pretendard) · [네이버 나눔글꼴](https://hangeul.naver.com/font) · [Google Fonts](https://fonts.google.com/)
+
+**EN:** No third-party font files are bundled. Use your installed fonts or import legally obtained font files locally, subject to each font's license.
+
+## 🔒 개인정보·네트워크·AI / Privacy, Network & AI
+
+- 일반 편집과 저장은 브라우저에서 이루어지며, **앱 자체의 이미지 업로드 서버는 없습니다.**
+- AI 자동 배경 제거는 처음 사용할 때 IMG.LY 라이브러리, ONNX/WASM 구성요소 및 모델을 외부 CDN에서 다운로드합니다. 인터넷 연결과 브라우저 리소스가 필요합니다.
+- 초고해상도 입력에는 캔버스 크기와 메모리 보호 제한이 있습니다. 일부 SVG는 렌더링 후 입력되며, 특수한 SVG는 결과를 확인하세요.
+- **자동화 테스트와 실사용 검증은 다릅니다.** Chromium 자동화에서 기능·언어 전환·경계 사례를 검사했지만 실제 Windows 로컬 HTML의 AI 모델 다운로드·추론 및 GitHub Pages에서의 AI 실행은 별도 확인이 필요합니다.
+
+**EN:** Image editing and exports run locally; this application has no dedicated image-upload server. AI background removal downloads third-party code, WASM and model assets over the network. Large images can reach canvas or memory safety limits. Real model inference on Windows and GitHub Pages was not established by the automated test suite.
+
+## 📚 설명서·릴리즈·검증 / Documentation
+
+| 문서 / Resource | 내용 / Details |
+|---|---|
+| [🇰🇷 한국어 사용 설명서](docs/manual.md) | 모드별 설정과 사용법 / Korean guide |
+| [🇺🇸 English user manual](docs/manual_en.md) | Full English guide |
+| [📦 v2.2 Release](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/tag/v2.2) | Download and version-specific changes |
+| [📝 v2.2 변경 내역 / Release Notes](docs/RELEASE_NOTES_v2.2.md) | Concise bilingual changelog |
+| [✅ 테스트 보고서 / Test Report](docs/TEST_REPORT.md) | Automated checks and coverage |
+| [🧪 PC 실사용 체크리스트](docs/TEST_BEFORE_GITHUB_RELEASE.md) | Checks for real Chrome/Edge environments |
+| [⚖️ Third-party notices](THIRD_PARTY_NOTICES.md) | External licenses and dependencies |
+
+**License:** [GNU AGPL-3.0](LICENSE) · **Developer:** [Yamoon-jjang](https://github.com/Yamoon-jjang)
+
+---
+
+**One Studio · Three Editing Modes · Two Languages**
