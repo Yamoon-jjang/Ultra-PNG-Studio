@@ -22,7 +22,7 @@
 
 # 🇰🇷 한국어
 
-Ultra PNG Studio v2.2는 **AI·수동 배경 제거**, **투명 이미지 편집**, **텍스트 PNG 제작**을 한곳에서 처리하는 독립 실행형 HTML 이미지 편집 앱입니다. ZIP 압축을 풀고 Chrome 또는 Edge에서 \`index.html\`을 열면 사용할 수 있습니다.
+Ultra PNG Studio v2.2는 **AI·수동 배경 제거**, **투명 이미지 편집**, **텍스트 PNG 제작**을 한곳에서 처리하는 독립 실행형 HTML 이미지 편집 앱입니다. ZIP 압축을 풀고 Chrome 또는 Edge에서 `index.html`을 열면 사용할 수 있습니다.
 
 ## ✨ 한눈에 보는 세 가지 작업
 
@@ -75,7 +75,7 @@ Ultra PNG Studio v2.2는 **AI·수동 배경 제거**, **투명 이미지 편집
 
 1. [**GitHub Releases에서 최신 v2.2 ZIP 다운로드**](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/latest)
 2. ZIP 압축을 풉니다.
-3. **\`Ultra-PNG-Studio/index.html\`**을 Chrome 또는 Edge로 실행합니다.
+3. **`Ultra-PNG-Studio/index.html`**을 Chrome 또는 Edge로 실행합니다.
 4. 세 가지 작업 중 하나를 선택해 이미지를 불러오거나 텍스트를 입력합니다.
 5. 편집 결과를 확인한 후 해당 모드에서 지원하는 PNG/JPG 형식으로 저장합니다.
 
@@ -114,7 +114,7 @@ Ultra PNG Studio v2.2는 **AI·수동 배경 제거**, **투명 이미지 편집
 
 # 🇺🇸 English
 
-**Ultra PNG Studio v2.2** is a **portable, single-file HTML editor** combining **AI/manual background removal**, **transparent-image editing** and **text PNG generation**. Extract the ZIP and open \`index.html\` in Chrome or Edge. No desktop installation or dedicated image-upload server is needed.
+**Ultra PNG Studio v2.2** is a **portable, single-file HTML editor** combining **AI/manual background removal**, **transparent-image editing** and **text PNG generation**. Extract the ZIP and open `index.html` in Chrome or Edge. No desktop installation or dedicated image-upload server is needed.
 
 ## ✨ Three editing modes at a glance
 
@@ -167,7 +167,7 @@ Create text graphics with transparent backgrounds, your preferred typography and
 
 1. [**Download the latest v2.2 ZIP from GitHub Releases**](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/latest).
 2. Extract the archive.
-3. Open **\`Ultra-PNG-Studio/index.html\`** in Chrome or Edge.
+3. Open **`Ultra-PNG-Studio/index.html`** in Chrome or Edge.
 4. Select a mode, load an image or enter text, and apply your edits.
 5. Preview the result and export to a PNG/JPG format supported by the selected mode.
 
