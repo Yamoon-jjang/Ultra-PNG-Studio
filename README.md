@@ -4,6 +4,8 @@
 
 **🇰🇷 한국어 / 🇺🇸 English · One HTML file · No installation**
 
+[![License](https://img.shields.io/badge/License-AGPL--3.0-blue)](LICENSE)
+
 [📦 **v2.2 다운로드 / Download v2.2**](https://github.com/Yamoon-jjang/Ultra-PNG-Studio/releases/latest) · [🇰🇷 한국어 소개](#korean) · [🇺🇸 English overview](#english) · [📖 사용 설명서 / Manuals](#documentation)
 
 ![Ultra PNG Studio v2.2 — Background Remover, Transparent PNG Editor, Text PNG Maker and KO/EN UI](screenshots/00_overview.png)
@@ -216,7 +218,27 @@ Create text graphics with transparent backgrounds, your preferred typography and
 | [🧪 PC 실사용 점검](docs/TEST_BEFORE_GITHUB_RELEASE.md) | [🧪 Real-device Test Checklist](docs/TEST_BEFORE_GITHUB_RELEASE.md) |
 | [⚖️ 외부 구성요소 고지](THIRD_PARTY_NOTICES.md) | [⚖️ Third-party Notices](THIRD_PARTY_NOTICES.md) |
 
-**라이선스 / License:** [GNU AGPL-3.0](LICENSE) · **개발자 / Developer:** [Yamoon-jjang](https://github.com/Yamoon-jjang)
+## 📄 라이선스 / License
+
+**한국어**
+
+[GNU AGPL-3.0](LICENSE) — 누구나 무료로 사용 · 수정 · 재배포할 수 있습니다. 단, 수정하거나 재배포할 때(웹 서비스로 제공하는 경우 포함)는 같은 AGPL 라이선스로 소스 코드를 함께 공개하고 저작권 표시를 유지해야 합니다.
+AI 배경 제거에 쓰는 IMG.LY Background Removal(AGPL-3.0)과 ONNX Runtime Web(MIT)은 실행할 때 CDN에서 불러오며 이 저장소와 배포 ZIP에 포함되어 있지 않습니다. 자세한 내용은 [외부 구성요소 고지](THIRD_PARTY_NOTICES.md)를 보세요.
+
+- 글꼴 파일은 동봉하지 않으며, 사용자가 고른 글꼴은 각 글꼴의 라이선스를 따릅니다.
+- 편집한 이미지와 원본 이미지의 권리와 사용 · 공유 책임은 사용자에게 있습니다.
+- 이 프로그램은 있는 그대로 제공되며, 사용으로 생긴 문제에 대해 제작자는 책임지지 않습니다.
+
+**English**
+
+Released under the [GNU AGPL-3.0](LICENSE) — free to use, modify and redistribute; modified or redistributed versions (including those offered as a web service) must remain under the AGPL, with source code available and the copyright notice kept.
+IMG.LY Background Removal (AGPL-3.0) and ONNX Runtime Web (MIT), used for AI background removal, are loaded from a CDN at runtime and are not included in this repository or the release ZIP. See [Third-party Notices](THIRD_PARTY_NOTICES.md) for details.
+
+- No font files are bundled; any font you select remains under its own license.
+- You are responsible for the rights to, and the use and sharing of, the images you edit and their source images.
+- Provided "as is", without warranty of any kind; the author is not liable for any problems arising from its use.
+
+Copyright (C) 2026 야문 짱 (Yamoon-jjang) · **개발자 / Developer:** [Yamoon-jjang](https://github.com/Yamoon-jjang)
 
 ---
 
